@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS Employee;
+USE Employee;
+
+CREATE TABLE IF NOT EXISTS Emp (
+  Emp_No INT PRIMARY KEY,
+  Emp_Name VARCHAR(100),
+  BasicSalary DECIMAL(10,2)
+);

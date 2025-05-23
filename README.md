@@ -104,4 +104,43 @@ A complete collection of Advanced Java programs demonstrating key concepts such 
 ## 🌐 6. Servlet Examples
 
 - `6a_FactorialServlet.java`  
-📸 [Output](https)
+📸 [Output](https://github.com/Shrigiri014/Advanced_Java/blob/main/6a_FactorialServlet_2.png)  
+- `6b_CookieServlet.java`  
+📸 [Output](https://github.com/Shrigiri014/Advanced_Java/blob/main/6b_CookieServlet_1.png)  
+- `6c_CheckPrimeServlet.java`  
+📸 [Output](https://github.com/Shrigiri014/Advanced_Java/blob/main/6c_PrimeNumberChceker_1.png)
+
+---
+
+## 🔐 7. Session and Cookie Management
+
+- `7a_SessionManagement.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/7a_SessionMangement%20output_2.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/7a_SessionMangement_1.png)  
+- `7b_Cookiee_Management.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/7b_CookieMangement%20output%201.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/7b_CookieMangement%20output_2.png)
+
+---
+
+## ☕ 8. Coffee App & Employee Projects
+
+- `8a_CoffeeApp.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffee_insert_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffee_insert_2.png)  
+- `8b_CoffeeApp_Update.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffee_update_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffee_update_2.png)  
+- `8c_EmployeeSalaryReport.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_SalaryReport_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_SalaryReport_2.png)  
+- `8d_EmployeeUpdateApp.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_update_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_update_2.png)
+
+---
+
+## 🗃️ 9. JDBC-Based Operations
+
+- `9a_CoffeeDeleteApp.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffee_delete_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffee_delete_2.png)  
+- `9b_CoffeeQueryStartsWithD.java`  
+📸 [Output](https://github.com/Shrigiri014/Advanced_Java/blob/main/Coffe_StartswithLetter.png)  
+- `9c_EmpAppendAndReport.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_insert_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_SalaryReport_1.png)  
+- `9d_EmpDeleteByName.java`  
+📸 [Output 1](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_delete_1.png), [Output 2](https://github.com/Shrigiri014/Advanced_Java/blob/main/employee_delete_2.png)

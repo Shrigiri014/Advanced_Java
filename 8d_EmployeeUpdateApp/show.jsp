@@ -1,0 +1,39 @@
+<%@ page import="java.sql.*" %>
+<h2>All Employee Records</h2>
+<table border="1" cellpadding="10">
+<tr>
+  <th>Emp_No</th>
+  <th>Emp_Name</th>
+  <th>BasicSalary</th>
+</tr>
+<%
+Connection conn = null;
+Statement stmt = null;
+ResultSet rs = null;
+
+try {
+  Class.forName("com.mysql.cj.jdbc.Driver");
+  conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Employee", "root", "your_password");
+
+  stmt = conn.createStatement();
+  rs = stmt.executeQuery("SELECT * FROM Emp");
+
+  while(rs.next()) {
+%>
+<tr>
+  <td><%= rs.getInt("Emp_No") %></td>
+  <td><%= rs.getString("Emp_Name") %></td>
+  <td><%= rs.getDouble("BasicSalary") %></td>
+</tr>
+<%
+  }
+} catch(Exception e){
+  out.println("<tr><td colspan='3'>Error: " + e.getMessage() + "</td></tr>");
+} finally {
+  if(rs != null) rs.close();
+  if(stmt != null) stmt.close();
+  if(conn != null) conn.close();
+}
+%>
+</table>
+<a href="update.html">Update an Employee</a>
